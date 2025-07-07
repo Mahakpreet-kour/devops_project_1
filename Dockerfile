@@ -1,4 +1,4 @@
-iFROM redhat/ubi8
+FROM redhat/ubi8
 
 RUN yum install -y python3 && \
     yum install -y python3-pip
